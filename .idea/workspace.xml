@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringMVC-001-demo:war exploded" />
+      <artifact name="SpringMVC-002-data_submit:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -41,6 +41,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -49,30 +50,41 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Running Noob/Code Project/Mybatis-learning-code",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "spring",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Running Noob/Code Project/SpringMVC-learning-code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3402299&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Running Noob\Code Project\SpringMVC-learning-code\SpringMVC-002-data_submit\src" />
+      <recent name="C:\Users\Running Noob\Code Project\SpringMVC-learning-code\SpringMVC-002-data_submit\src\main\webapp" />
+      <recent name="C:\Users\Running Noob\Code Project\SpringMVC-learning-code\SpringMVC-002-data_submit\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Running Noob\Code Project\SpringMVC-learning-code\SpringMVC-002-data_submit\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Running Noob\Code Project\SpringMVC-learning-code\SpringMVC-002-data_submit\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 10.1.15" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.15" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringMVC-001-demo:war exploded">
+        <artifact name="SpringMVC-002-data_submit:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/demo" />
           </settings>
@@ -152,7 +164,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringMVC-001-demo:war exploded" />
+          <artifact name="SpringMVC-002-data_submit:war exploded" />
         </option>
       </method>
     </configuration>
@@ -168,7 +180,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707023136998</updated>
-      <workItem from="1707023138525" duration="12440000" />
+      <workItem from="1707023138525" duration="13986000" />
+      <workItem from="1707037487726" duration="1093000" />
+      <workItem from="1707038593098" duration="37000" />
+      <workItem from="1707038645653" duration="26000" />
+      <workItem from="1707038681473" duration="6926000" />
     </task>
     <servers />
   </component>
