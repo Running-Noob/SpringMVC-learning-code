@@ -9,6 +9,7 @@
         <module name="SpringMVC-001-demo" />
         <module name="SpringMVC-003-jump" />
         <module name="SpringMVC-002-data_submit" />
+        <module name="SpringMVC-004-date" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
