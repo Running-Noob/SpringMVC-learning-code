@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.f.springmvc.mapper.UserMapper">
+    <sql id="allColumns">
+        user_id,
+        card_type,
+        card_no,
+        user_name,
+        user_sex,
+        user_age,
+        user_role
+    </sql>
+    <select id="selectUserPage" resultType="User">
+        SELECT
+            <include refid="allColumns"/>
+        FROM user
+        <where>
+            <if test="userName != null and userName != ''">
+                AND user_name LIKE concat('%',#{userName},'%')
+            </if>
+            <if test="userSex != null and userSex != ''">
+                AND user_sex = #{userSex}
+            </if>
+        </where>
+        LIMIT #{startRow}, 5
+    </select>
+    <insert id="createUser">
+        INSERT INTO user (<include refid="allColumns"/>)
+        VALUES (#{userId}, #{cardType}, #{cardNo}, #{userName}, #{userSex}, #{userAge}, #{userRole})
+    </insert>
+    <delete id="deleteUserById">
+        DELETE FROM user
+        <where>
+            user_id = #{userId}
+        </where>
+    </delete>
+    <select id="getRowCount" resultType="int">
+        SELECT
+            COUNT(*)
+        FROM user
+        <where>
+            <if test="userName != null and userName != ''">
+                AND user_name LIKE concat('%',#{userName},'%')
+            </if>
+            <if test="userSex != null and userSex != ''">
+                AND user_sex = #{userSex}
+            </if>
+        </where>
+    </select>
+</mapper>

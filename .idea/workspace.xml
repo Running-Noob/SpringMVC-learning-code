@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringMVC-006-interceptor:war exploded" />
+      <artifact name="SpringMVC-007-ssm:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -18,8 +18,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="mybatis-config" />
+        <option value="spring-beans.schema" />
+        <option value="Mybatis-SqlMapper" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,25 +53,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Running Noob/Code Project/SpringMVC-learning-code/SpringMVC-005-web-inf/src/main/webapp/WEB-INF&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15039062&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3402299&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;spring&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Running Noob/Code Project/SpringMVC-learning-code/SpringMVC-005-web-inf/src/main/webapp/WEB-INF",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15039062",
+    "project.structure.side.proportion": "0.3402299",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Running Noob\Code Project\SpringMVC-learning-code\SpringMVC-005-web-inf\src\main\webapp\WEB-INF" />
@@ -81,16 +89,74 @@
       <recent name="C:\Users\Running Noob\Code Project\SpringMVC-learning-code\SpringMVC-002-data_submit\src\main\webapp\WEB-INF" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 10.1.15">
+    <configuration name="UserTest.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringMVC-007-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.springmvc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.springmvc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.springmvc.test.UserTest" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testDeleteUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringMVC-007-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.springmvc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.springmvc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.springmvc.test.UserTest" />
+      <option name="METHOD_NAME" value="testDeleteUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testGetRowCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringMVC-007-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.springmvc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.springmvc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.springmvc.test.UserTest" />
+      <option name="METHOD_NAME" value="testGetRowCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.testSelectUserPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringMVC-007-ssm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.f.springmvc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.f.springmvc.test" />
+      <option name="MAIN_CLASS_NAME" value="com.f.springmvc.test.UserTest" />
+      <option name="METHOD_NAME" value="testSelectUserPage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.1.15" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.15" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="SpringMVC-006-interceptor:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/interceptor" />
-          </settings>
-        </artifact>
-      </deployment>
+      <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="2cc0f9f4-6965-4fd9-8f5f-0d1b5cd7691d" />
       </server-settings>
@@ -164,11 +230,24 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringMVC-006-interceptor:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.UserTest.testCreateUser" />
+      <item itemvalue="JUnit.UserTest.testDeleteUserById" />
+      <item itemvalue="JUnit.UserTest.testGetRowCount" />
+      <item itemvalue="JUnit.UserTest.testSelectUserPage" />
+      <item itemvalue="Tomcat 服务器.Tomcat 10.1.15" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserTest.testGetRowCount" />
+        <item itemvalue="JUnit.UserTest.testCreateUser" />
+        <item itemvalue="JUnit.UserTest.testDeleteUserById" />
+        <item itemvalue="JUnit.UserTest.testSelectUserPage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SpringGeneralSettings">
@@ -188,7 +267,8 @@
       <workItem from="1707038681473" duration="6926000" />
       <workItem from="1707121032207" duration="12966000" />
       <workItem from="1707144092520" duration="612000" />
-      <workItem from="1707645712988" duration="4846000" />
+      <workItem from="1707645712988" duration="9151000" />
+      <workItem from="1708417484786" duration="12751000" />
     </task>
     <servers />
   </component>
