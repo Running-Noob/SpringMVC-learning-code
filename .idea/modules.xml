@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC-006-interceptor/SpringMVC-006-interceptor.iml" filepath="$PROJECT_DIR$/SpringMVC-006-interceptor/SpringMVC-006-interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringMVC-learning-code.iml" filepath="$PROJECT_DIR$/SpringMVC-learning-code.iml" />
     </modules>
   </component>

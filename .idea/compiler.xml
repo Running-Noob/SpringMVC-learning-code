@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringMVC-006-interceptor" />
         <module name="SpringMVC-001-demo" />
         <module name="SpringMVC-003-jump" />
         <module name="SpringMVC-005-web-inf" />
@@ -17,6 +18,8 @@
       <module name="SpringMVC-001-demo (1)" target="17" />
       <module name="SpringMVC-001-demo (2)" target="17" />
       <module name="SpringMVC-003-ajax" target="17" />
+      <module name="SpringMVC-005-web-inf (1)" target="17" />
+      <module name="SpringMVC-005-web-inf (2)" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
